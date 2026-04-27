@@ -1,3 +1,9 @@
 var:
+  last_build_time: 1777254864
   option:
+    ascii_punct: true
     full_shape: false
+  previously_selected_schema: keytao
+  schema_access_time:
+    keytao: 1777252743
+    "keytao-lf": 1777252576

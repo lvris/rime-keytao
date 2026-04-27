@@ -1,0 +1,46 @@
+patch:
+  preset_color_schemes:
+    Catppuccin:
+      {
+        author: "缄默线",
+        back_color: 0x3A2724,
+        border_color: 0x3A2724,
+        candidate_text_color: 0xF5D3CA,
+        comment_text_color: 0x9FD4EE,
+        hilited_back_color: 0x261918,
+        hilited_candidate_back_color: 0x644D49,
+        hilited_candidate_text_color: 0xD6DBF4,
+        hilited_comment_text_color: 0x9FD4EE,
+        hilited_label_color: 0xCBADA5,
+        hilited_text_color: 0xF2AB89,
+        label_color: 0xA28780,
+        shadow_color: 0xAA000000,
+        name: "Catppuccin",
+        text_color: 0xF5D3CA,
+      }
+    
+  style:
+    color_scheme: Catppuccin 
+    # color_scheme_dark: CatDark 
+    font_face: "霞鹜文楷, Microsoft Yahei, TH-Tshyn-P1:30000:3134A, TH-Tshyn-P1:31350:323AF, TH-Tshyn-P1:2EBF0:2EE5D, Segoe UI, Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Noto Color Emoji SVG:80"
+    font_point: 14
+    label_font_point: 14
+    comment_font_point: 13
+    mark_text: "|"
+    layout:
+      align_type: bottom                     # ★文字偏置，bottom/center/top, 
+      min_width: 30                          # 候选框最小宽度
+      min_height: 0                          # 候选框最小高度
+      border_width: 0                        # 边框宽度，同border_width
+      margin_x: 0                            # 主体元素和候选框的左右边距；为负值时，不显示候选框
+      margin_y: 0                            # 主体元素的上下边距；为负值时，不显示候选框
+      spacing: 0                             # inline_preedit 为否时，编码区域和候选区域的间距
+      candidate_spacing: 0                   # 候选项之间的间距
+      hilite_spacing: 5                      # 候选项和相应标签的间距
+      hilite_padding: 5                      # 高亮区域和内部文字的间距，影响高亮区域大小
+      round_corner: 8                        # 别名 hilited_corner_radius
+      corner_radius: 8                       # 候选窗口圆角半径
+      shadow_radius: 0                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+      shadow_offset_x: 4                     # 阴影左右偏移距离
+      shadow_offset_y: 4                     # 阴影上下偏移距离
+      style/layout/min_width: 30

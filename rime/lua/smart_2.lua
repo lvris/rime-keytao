@@ -1,4 +1,4 @@
-local KEY = "apostrophe"
+local KEY = "semicolon"
 local kRejected = 0 -- do the OS default processing
 local kAccepted = 1 -- consume it
 local kNoop     = 2 -- leave it to other processors

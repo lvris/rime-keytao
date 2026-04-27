@@ -82,6 +82,11 @@ local function processor(key_event, env)
 
 
     if env.topup_command and is_first_topup then
+        if first == 'a' and input_len >= 2 then
+            topup(env)
+        elseif first == 'v' and input_len >= 1 then
+            topup(env)
+        end
         return 2
     end
 

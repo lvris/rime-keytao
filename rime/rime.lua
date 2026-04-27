@@ -29,7 +29,7 @@ date_time_translator = require("date_time")
 
 -- single_char_filter: 候选项重排序，使单字优先
 -- 详见 `lua/single_char.lua`
--- single_char_filter = require("single_char")
+single_char_filter = require("single_char")
 
 
 -- keytao_filter: 单字模式 & 630 即 ss 词组提示
@@ -50,3 +50,6 @@ number_translator = require("xnumber")
 
 -- 用 ' 作为次选键
 smart_2 = require("smart_2")
+
+-- 添加个 ge 选项
+add_ge = require("add_ge")

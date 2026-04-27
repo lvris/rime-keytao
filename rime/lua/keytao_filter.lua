@@ -35,7 +35,7 @@ local function filter(input, env)
     local is_on = env.engine.context:get_option('sbb_hint')
     local disable_full = env.engine.context:get_option('sbb_disable_full')
     local topup_hint_on = env.engine.context:get_option('topup_hint')
-    local hint_text = env.engine.schema.config:get_string('hint_text') or '🚫'
+    local hint_text = env.engine.schema.config:get_string('hint_text') or '⛔️'
     local first = true
     local input_text = env.engine.context.input
     local no_commit = topup_hint_on and input_text:len() < 4 and input_text:match("^[bcdefghjklmnpqrstwxyz]+$")
