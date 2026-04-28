@@ -31,7 +31,7 @@ import_tables:
   - keytao.supplement
 # ---------------------------------------
 # 扩展：链接等
-  - keytao.link
+  # - keytao.link
 # ---------------------------------------
 # 扩展：英文词库
   - keytao.english
