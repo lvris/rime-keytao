@@ -4,11 +4,8 @@
 schema:
   schema_id: keytao
   name: 键道6
-  version: "1"
-  author:
-    - 发明人 大牛
+  version: "2.2"
   dependencies:
-    - keytao-cx
     - keytao-lf
 
 
@@ -36,23 +33,27 @@ layout:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中, 英 ]
+    states: [ 中文, 西文 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: s2tw
+  - name: simplification
     reset: 0
     states: [ 简体, 繁體 ]
   - name: emoji_cn
-    states: [ 关💯, 开💯 ]
+    reset: 0
+    states: [ "关表情", "开表情" ]
+  - name: danzi_mode
+    reset: 0
+    states: [ "词组", "单字" ]
   - name: sbb_hint
     reset: 1
     states: [ "关₆₃₀", "开₆₃₀" ]
   - name: sbb_disable_full
     reset: 0
     states: [ "开₆₃₀全码", "关₆₃₀全码" ]
-  - name: topup_hint
+  - name: topup_hint  # lua: keytao_filter.lua
     reset: 1
     states: [ "关顶功提示", "开顶功提示" ]
 
@@ -80,23 +81,21 @@ engine:
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
-    - affix_segmentor@liangfen_lookup
   translators:
     - punct_translator
     - table_translator
     - history_translator@repeat_history
     - table_translator@custom_phrase
-    - table_translator@danzi_lookup
     - reverse_lookup_translator@liangfen_lookup
-    - lua_translator@date_time_translator
+    - lua_translator@oboot_translator
     - lua_translator@number_translator
   filters:
-    - uniquifier
     - simplifier@emoji_cn
-    - simplifier@s2tw
+    - simplifier@simplification
+    - uniquifier
+    - reverse_lookup_filter@danzi_lookup
     - lua_filter@single_char_filter
     - lua_filter@keytao_filter
-    - reverse_lookup_filter@danzi_lookup
 
 
 speller:
@@ -104,7 +103,7 @@ speller:
     __include: "layout/algebra"
   auto_select: false
   auto_select_unique_candidate: false
-  alphabet: "zyxwvutsrqponmlkjihgfedcba`"
+  alphabet: "abcdefghijklmnopqrstuvwxyz`"
   initials: "abcdefghijklmnopqrstuvwxyz`"
 
 
@@ -131,9 +130,9 @@ emoji_cn:
   tips: all
 
 
-s2tw:
+simplification:
   opencc_config: s2tw.json
-  option_name: s2tw
+  option_name: simplification
 
 
 danzi_lookup:
@@ -156,7 +155,6 @@ liangfen_lookup:
   dictionary: keytao-lf
   tag: liangfen_lookup
   prefix: "i"
-  overwrite_comment: true
   enable_charset_filter: false
   enable_completion: true
   enable_encoder: false
@@ -167,13 +165,6 @@ liangfen_lookup:
     - xform/^/〔/
     - xform/$/〕/
     - xform/ /, /
-
-
-reverse_lookup:
-  dictionary: keytao-cx
-  comment_format:
-    - xform/^/〔/
-    - xform/$/〕/
 
 
 custom_phrase:
@@ -208,4 +199,3 @@ topup:
   auto_clear: true
   min_length_danzi: 2
   topup_command: true
-
