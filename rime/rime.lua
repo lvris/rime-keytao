@@ -24,7 +24,14 @@ librime-lua 样例
 配方文件中的引用方法为：`...@foo`。
 --]]
 
-date_time_translator = require("date_time")
+-- Tune Lua GC to be more aggressive: Lua does not see C++ object sizes (OpenCC,
+-- ReverseDb), so by default it GCs too rarely and memory grows unboundedly.
+-- setpause=50 triggers GC sooner (default 200), setstepmul=400 makes each GC
+-- step do more work (default 200). See: librime-lua issue #206.
+collectgarbage("setpause", 50)
+collectgarbage("setstepmul", 400)
+
+oboot_translator = require("oboot")
 
 
 -- single_char_filter: 候选项重排序，使单字优先
@@ -40,9 +47,6 @@ keytao_filter = require("keytao_filter")
 
 -- 顶功处理器
 topup_processor = require("for_topup")
-
--- 声笔笔简码提示 | 顶功提示 | 补全处理
-hint_filter = require("for_hint")
 
 -- number_translator: 将 `=` + 阿拉伯数字 翻译为大小写汉字
 -- 详见 `lua/number.lua`
