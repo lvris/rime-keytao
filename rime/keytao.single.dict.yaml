@@ -267,7 +267,7 @@ columns:
 㘵	bjvovu	10
 布	bjvuia	10
 不	bjvuio	10
-比	bk	10
+必	bk	10
 避	bka	10
 纰	bkaa	10
 纰	bkaava	10
@@ -326,7 +326,7 @@ columns:
 铋	bkiooa	10
 俾	bkiu	10
 俾	bkiuia	10
-必	bko	10
+弊	bko	10
 裨	bkoa	10
 邲	bkoaa	10
 邲	bkoaai	10
@@ -341,8 +341,8 @@ columns:
 咇	bkooa	10
 咇	bkooao	10
 愎	bkoouv	10
-弊	bkou	10
-鄙	bkoua	10
+鄙	bkou	10
+# 鄙	bkoua	10
 鄙	bkouai	10
 敝	bkouu	10
 敝	bkouuv	10
@@ -1135,13 +1135,13 @@ columns:
 壿	cwvoou	10
 存	cwvuai	10
 村	cwvvio	10
-从	cy	10
+丛	cy	10
 淙	cya	10
 骢	cyaa	10
 骢	cyaaui	10
 淙	cyaooa	10
-丛	cyi	10
-葱	cyii	10
+葱	cyi	10
+苁	cyii	10
 从	cyiii	10
 苁	cyiiii	10
 葱	cyiiua	10
@@ -1252,7 +1252,7 @@ columns:
 貂	dcuoau	10
 碉	dcv	10
 碉	dcvuua	10
-都	dd	10
+兜	dd	10
 陡	dda	10
 绖	ddaa	10
 绖	ddaava	10
@@ -1296,18 +1296,18 @@ columns:
 喋	ddovi	10
 喋	ddovii	10
 痘	ddovvo	10
-兜	ddu	10
+爹	ddu	10
 鲽	ddua	10
 鲽	dduavi	10
 牒	ddui	10
 兜	dduiua	10
 牒	dduivi	10
-爹	dduo	10
+耋	dduo	10
 都	dduoai	10
 䏲	dduou	10
 爹	dduoua	10
 䏲	dduoua	11
-耋	dduov	10
+# 耋	dduov	10
 耋	dduova	10
 瓞	dduu	10
 瓞	dduuuv	10
@@ -2606,18 +2606,18 @@ columns:
 珅	envvi	10
 珅	envvia	10
 椹	envvii	10
-上	ep	10
+尚	ep	10
 汤	epa	10
 绱	epaa	10
 绱	epaaio	10
 汤	epaauu	10
-尚	epi	10
+伤	epi	10
 赏	epio	10
 赏	epioao	10
 尚	epioia	10
 裳	epioo	10
 裳	epioov	10
-伤	epiu	10
+# 伤	epiu	10
 伤	epiuva	10
 上	epivvv	10
 商	epo	10
@@ -2735,7 +2735,7 @@ columns:
 舜	ewuoua	10
 楯	ewv	10
 楯	ewvuuu	10
-双	ex	10
+# 双	ex	10
 孀	exa	10
 骦	exaa	10
 骦	exaavo	10
@@ -3002,6 +3002,7 @@ columns:
 跩	fgoiia	10
 转	fgv	10
 转	fgvavv	10
+宅	fh	10
 翟	fha	10
 翟	fhaoio	10
 摘	fhi	10
@@ -3014,11 +3015,10 @@ columns:
 砦	fhivv	10
 债	fhivvi	10
 砦	fhivvu	10
-宅	fho	10
-窄	fhoo	10
+窄	fho	10
 宅	fhoouv	10
 窄	fhoouv	11
-寨	fhoov	10
+寨	fhoo	10
 寨	fhoovv	10
 斋	fhov	10
 瘵	fhovu	10
@@ -3822,7 +3822,7 @@ columns:
 霏	fwvoiv	10
 榧	fwvv	10
 榧	fwvviv	10
-装	fx	10
+# 装	fx	10
 奘	fxa	10
 奘	fxaivu	10
 撞	fxi	10
@@ -3846,7 +3846,7 @@ columns:
 状	fxovvu	10
 桩	fxv	10
 桩	fxvovu	10
-中	fy	10
+种	fy	10
 终	fya	10
 终	fyaaua	10
 众	fyi	10
@@ -3874,10 +3874,10 @@ columns:
 忪	fyoo	10
 忪	fyoouo	10
 衷	fyovia	10
-种	fyu	10
+肿	fyu	10
 螽	fyua	10
 螽	fyuaia	10
-肿	fyui	10
+# 肿	fyui	10
 肿	fyuiav	10
 舯	fyuu	10
 舯	fyuuia	10
@@ -4333,14 +4333,14 @@ columns:
 梏	gjvu	10
 梏	gjvuvi	10
 顾	gjvuvu	10
-过	gl	10
+国	gl	10
 涡	gla	10
 𬇹	glai	10
 𬇹	glaiav	10
 涡	glaoia	10
-国	gli	10
-果	glia	10
-帼	gliai	10
+果	gli	10
+帼	glia	10
+蝈	gliai	10
 蜾	gliaia	10
 蝈	gliaia	11
 帼	gliaia	12
@@ -4610,7 +4610,7 @@ columns:
 棍	gwvoiv	10
 磙	gwvu	10
 磙	gwvuov	10
-光	gx	10
+# 光	gx	10
 潢	gxa	10
 洸	gxai	10
 洸	gxaiou	10
@@ -5160,7 +5160,7 @@ columns:
 琥	hjvvi	10
 琥	hjvviv	10
 瑚	hjvvuo	10
-或	hl	10
+获	hl	10
 活	hla	10
 𬴃	hlaa	10
 𬴃	hlaavv	10
@@ -5171,7 +5171,7 @@ columns:
 活	hlauvi	10
 彟	hlav	10
 彟	hlavii	10
-获	hli	10
+货	hli	10
 夥	hlia	10
 蠖	hliai	10
 蠖	hliaii	10
@@ -5189,9 +5189,9 @@ columns:
 锪	hliou	10
 锪	hlioua	10
 伙	hlioui	10
-货	hliu	10
+攉	hliu	10
 货	hliuao	10
-攉	hliuv	10
+佸	hliuv	10
 佸	hliuvi	10
 攉	hliuvo	10
 火	hlo	10
@@ -5214,7 +5214,7 @@ columns:
 或	hlvova	10
 耠	hlvv	10
 耠	hlvviv	10
-黄	hm	10
+# 黄	hm	10
 隍	hma	10
 隍	hmaiui	10
 滉	hmao	10
@@ -6461,7 +6461,7 @@ columns:
 脊	jkovuu	10
 疾	jkovuv	10
 几	jku	10
-及	jkua	10
+祭	jkua	10
 几	jkuaa	10
 鲫	jkuaav	10
 鱾	jkuaav	11
@@ -6474,7 +6474,7 @@ columns:
 饥	jkuau	10
 𬶭	jkuaua	10
 饥	jkuaua	11
-祭	jkuav	10
+觭	jkuav	10
 觭	jkuavu	10
 祭	jkuavv	10
 戟	jkuo	10
@@ -7540,7 +7540,7 @@ columns:
 柯	kevvoi	10
 珂	kevvv	10
 珂	kevvvo	10
-看	kf	10
+堪	kf	10
 侃	kfi	10
 瞰	kfia	10
 瞰	kfiaav	10
@@ -7557,10 +7557,10 @@ columns:
 阚	kfoiav	10
 衎	kfu	10
 衎	kfuuvv	10
-堪	kfv	10
-勘	kfvi	10
+勘	kfv	10
+槛	kfvi	10
 勘	kfviau	10
-槛	kfvii	10
+# 槛	kfvii	10
 槛	kfviiu	10
 戡	kfviv	10
 戡	kfviva	10
@@ -8380,7 +8380,7 @@ columns:
 璐	ljvvo	10
 璐	ljvvoi	10
 麓	ljvvov	10
-里	lk	10
+理	lk	10
 力	lka	10
 蠡	lkaa	10
 蠡	lkaaia	10
@@ -8490,14 +8490,14 @@ columns:
 篥	lkuvv	10
 篥	lkuvvi	10
 梨	lkuvvv	10
-理	lkv	10
+丽	lkv	10
 李	lkva	10
 李	lkvaiv	10
 轹	lkvau	10
 轹	lkvaua	10
 朸	lkvauu	10
-丽	lkvi	10
-吏	lkvia	10
+吏	lkvi	10
+郦	lkvia	10
 郦	lkviai	10
 丽	lkviao	10
 吏	lkviav	10
@@ -9648,9 +9648,9 @@ columns:
 礞	mrvu	10
 礞	mrvuii	10
 梦	mrvvua	10
-吗	ms	10
-妈	msa	10
-马	msaa	10
+妈	ms	10
+马	msa	10
+# 马	msaa	10
 马	msaavv	10
 孖	msai	10
 孖	msaiai	10
@@ -9777,8 +9777,8 @@ columns:
 旄	mzov	10
 袤	mzovao	10
 旄	mzovuv	10
-贸	mzu	10
-猫	mzua	10
+猫	mzu	10
+贸	mzua	10
 卯	mzuaa	10
 卯	mzuaai	10
 贸	mzuaao	10
@@ -10103,7 +10103,7 @@ columns:
 杻	nqvaiv	10
 能	nr	10
 能	nraoua	10
-那	ns	10
+拿	ns	10
 纳	nsa	10
 纳	nsaaia	10
 乸	nsai	10
@@ -10111,11 +10111,11 @@ columns:
 娜	nsau	10
 娜	nsauav	10
 那	nsavai	10
-拿	nsi	10
+钠	nsi	10
 𦰡	nsii	10
 𦰡	nsiiav	10
-钠	nsio	10
-镎	nsioi	10
+镎	nsio	10
+# 镎	nsioi	10
 钠	nsioia	10
 镎	nsioiv	10
 捺	nsiu	10
@@ -10958,7 +10958,7 @@ columns:
 砌	qdvuva	10
 挈	qdvv	10
 挈	qdvviu	10
-着	qe	10
+# 着	qe	10
 浙	qea	10
 浙	qeaiuu	10
 折	qei	10
@@ -11125,46 +11125,46 @@ columns:
 青	qgvv	10
 青	qgvvuu	10
 却	qh	10
-翟	qha	10
-翟	qhaoio	10
-摘	qhi	10
-侧	qhia	10
-𨟠	qhiaa	10
+# 翟	qha	10
+# 翟	qhaoio	10
+雀	qhi	10
+# 侧	qhia	10
+𨟠	qhia	10
 𨟠	qhiaai	10
-侧	qhiaoi	10
+# 侧	qhiaoi	10
 蒛	qhii	10
 蒛	qhiiuv	10
-雀	qhiu	10
-择	qhiua	10
-择	qhiuao	10
+# 择	qhiu	10
+# 择	qhiua	10
+# 择	qhiuao	10
 雀	qhiuio	10
-摘	qhiuov	10
-债	qhiv	10
-砦	qhivv	10
-债	qhivvi	10
-砦	qhivvu	10
-宅	qho	10
-阙	qhoi	10
-阕	qhoia	10
+# 摘	qhiuov	10
+# 债	qhiv	10
+# 砦	qhivv	10
+# 债	qhivvi	10
+# 砦	qhivvu	10
+阙	qho	10
+阕	qhoi	10
+# 阕	qhoia	10
 阕	qhoiao	10
 阙	qhoiou	10
-窄	qhoo	10
-宅	qhoouv	10
-窄	qhoouv	11
-寨	qhoov	10
+𬒈	qhoo	10
+# 宅	qhoouv	10
+# 窄	qhoouv	11
+# 寨	qhoov	10
 𬒈	qhoovu	10
-寨	qhoovv	10
+# 寨	qhoovv	10
 炔	qhou	10
 炔	qhouav	10
-斋	qhov	10
-瘸	qhova	10
+瘸	qhov	10
+# 瘸	qhova	10
 瘸	qhovau	10
 瘵	qhovu	10
 瘵	qhovua	10
-斋	qhovvu	10
+# 斋	qhovvu	10
 缺	qhu	10
-祭	qhua	10
-祭	qhuavv	10
+# 祭	qhua	10
+# 祭	qhuavv	10
 礐	qhui	10
 礐	qhuivu	10
 缺	qhuvav	10
@@ -11408,8 +11408,8 @@ columns:
 迄	qkuvoa	10
 憩	qkuvoa	11
 气	qkuvva	10
-其	qkv	10
-七	qkva	10
+七	qkv	10
+妻	qkva	10
 七	qkvaa	10
 郪	qkvaai	10
 妻	qkvaau	10
@@ -12049,7 +12049,7 @@ columns:
 跫	qyvio	10
 跫	qyvioi	10
 琼	qyvvov	10
-找	qz	10
+# 找	qz	10
 召	qza	10
 沼	qzaa	10
 沼	qzaauo	10
@@ -12154,7 +12154,7 @@ columns:
 然	rfuaoo	10
 髯	rfv	10
 髯	rfviia	10
-如	rj	10
+入	rj	10
 汝	rja	10
 缛	rjaa	10
 洳	rjaau	10
@@ -12189,8 +12189,8 @@ columns:
 褥	rjoavu	10
 嚅	rjov	10
 嚅	rjovoa	10
-入	rju	10
-乳	rjuo	10
+乳	rju	10
+# 乳	rjuo	10
 乳	rjuoaa	10
 入	rjuoo	10
 辱	rjv	10
@@ -12352,8 +12352,8 @@ columns:
 饶	rzuava	10
 桡	rzv	10
 桡	rzvvau	10
-三	s	10
-随	sb	10
+所	s	10
+岁	sb	10
 隋	sba	10
 绥	sbaa	10
 绥	sbaauo	10
@@ -12367,9 +12367,9 @@ columns:
 祟	sbaivv	10
 尿	sbav	10
 尿	sbavaa	10
-岁	sbi	10
-髓	sbia	10
-睢	sbiai	10
+髓	sbi	10
+睢	sbia	10
+# 睢	sbiai	10
 睢	sbiaio	10
 岁	sbiaua	10
 眭	sbiav	10
@@ -12457,7 +12457,7 @@ columns:
 槭	sevvui	10
 璱	sevvv	10
 璱	sevvvv	10
-散	sf	10
+三	sf	10
 叁	sfa	10
 毵	sfao	10
 参	sfaou	10
@@ -13333,7 +13333,7 @@ columns:
 滕	truouv	12
 螣	truouv	13
 䲢	truouv	14
-她	ts	10
+它	ts	10
 沓	tsa	10
 漯	tsai	10
 漯	tsaiav	10
@@ -13348,10 +13348,10 @@ columns:
 拓	tsiu	10
 挞	tsiuvu	10
 拓	tsiuvu	11
-它	tso	10
-祂	tsoa	10
+祂	tso	10
+褟	tsoa	10
 祂	tsoaai	10
-褟	tsoao	10
+# 褟	tsoao	10
 褟	tsoaoi	10
 踏	tsoi	10
 踏	tsoiao	10
@@ -14224,7 +14224,7 @@ columns:
 椽	wtvaav	10
 堾	wtvo	10
 堾	wtvovv	10
-为	ww	10
+位	ww	10
 维	wwa	10
 纬	wwaa	10
 潍	wwaaa	10
@@ -14260,13 +14260,13 @@ columns:
 尉	wwavv	10
 𣲗	wwavva	10
 尉	wwavvi	10
-位	wwi	10
-围	wwia	10
+围	wwi	10
+胃	wwia	10
 帷	wwiai	10
 帷	wwiaio	10
 遗	wwiao	10
 遗	wwiaoa	10
-胃	wwiau	10
+巍	wwiau	10
 峗	wwiaua	10
 嵬	wwiaui	10
 胃	wwiauu	10
@@ -14373,7 +14373,7 @@ columns:
 违	wwvvoa	10
 玮	wwvvv	10
 玮	wwvvvv	10
-床	wx	10
+# 床	wx	10
 创	wxi	10
 幢	wxia	10
 创	wxiaii	10
@@ -15500,7 +15500,7 @@ columns:
 嗯	xroiav	10
 唔	xrovia	10
 鞥	xrv	10
-下	xs	10
+啊	xs	10
 阿	xsa	10
 阿	xsaivo	10
 遐	xsav	10
@@ -15518,7 +15518,7 @@ columns:
 锕	xsio	10
 锕	xsioai	10
 侠	xsivou	10
-啊	xso	10
+吓	xso	10
 啊	xsoaiv	10
 暇	xsoi	10
 呷	xsoia	10
@@ -15526,8 +15526,8 @@ columns:
 呷	xsoiav	11
 吖	xsoo	10
 吖	xsooui	10
-吓	xsov	10
-瘕	xsova	10
+瘕	xsov	10
+# 瘕	xsova	10
 瘕	xsovav	10
 吓	xsovio	10
 嗄	xsovu	10
@@ -15865,7 +15865,7 @@ columns:
 聱	xzvvvi	10
 獒	xzvvvu	10
 璈	xzvvvv	10
-一	y	10
+有	y	10
 因	yb	10
 引	yba	10
 骃	ybaa	10
@@ -15966,15 +15966,15 @@ columns:
 珢	ybvvav	10
 烎	ybvvo	10
 烎	ybvvou	10
-有	yd	10
-又	yda	10
+又	yd	10
+游	yda	10
 幼	ydaa	10
 幼	ydaaau	10
 油	ydai	10
 油	ydaiav	10
 浟	ydaii	10
 浟	ydaiiu	10
-游	ydao	10
+# 游	ydao	10
 又	ydaoo	10
 游	ydaova	10
 由	ydi	10
@@ -17360,12 +17360,12 @@ columns:
 仄	zevu	10
 仄	zevuii	10
 责	zevvao	10
+咱	zf	10
 攒	zfi	10
 拶	zfiu	10
 拶	zfiuaa	10
 攒	zfiuuv	10
-咱	zfo	10
-寁	zfoo	10
+寁	zfo	10
 寁	zfoova	10
 糌	zfou	10
 咱	zfouia	10
@@ -17522,17 +17522,17 @@ columns:
 梓	zkvovo	10
 耔	zkvv	10
 耔	zkvvai	10
-做	zl	10
+作	zl	10
 阼	zla	10
 阼	zlaiuv	10
-作	zli	10
+坐	zli	10
 岞	zlia	10
 岞	zliauv	10
-坐	zlii	10
+# 坐	zlii	10
 坐	zliivo	10
-挫	zliu	10
-挫	zliuii	10
-撮	zliuo	10
+# 挫	zliu	10
+# 挫	zliuii	10
+撮	zliu	10
 撮	zliuoi	10
 做	zliuoo	10
 捽	zliuov	10
