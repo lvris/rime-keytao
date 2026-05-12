@@ -1,4 +1,22 @@
 patch:
+  app_options:
+    cmd.exe:
+      ascii_mode: true
+    windowsterminal.exe:
+      ascii_mode: true
+    wt.exe:
+      ascii_mode: true
+    pwsh.exe:
+      ascii_mode: true
+    powershell.exe:
+      ascii_mode: true
+    Code.exe:
+      ascii_mode: true
+    Flow.Launcher.exe:
+      ascii_mode: true
+
+  global_ascii: true
+
   preset_color_schemes:
     Catppuccin:
       {

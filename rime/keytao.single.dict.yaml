@@ -267,7 +267,7 @@ columns:
 㘵	bjvovu	10
 布	bjvuia	10
 不	bjvuio	10
-必	bk	10
+比	bk	10
 避	bka	10
 纰	bkaa	10
 纰	bkaava	10
@@ -326,7 +326,7 @@ columns:
 铋	bkiooa	10
 俾	bkiu	10
 俾	bkiuia	10
-弊	bko	10
+必	bko	10
 裨	bkoa	10
 邲	bkoaa	10
 邲	bkoaai	10
@@ -341,8 +341,8 @@ columns:
 咇	bkooa	10
 咇	bkooao	10
 愎	bkoouv	10
-鄙	bkou	10
-# 鄙	bkoua	10
+弊	bkou	10
+鄙	bkoua	10
 鄙	bkouai	10
 敝	bkouu	10
 敝	bkouuv	10
@@ -676,12 +676,12 @@ columns:
 捌	bsiuoa	10
 扒	bsiuuo	10
 拔	bsiuvu	10
-吧	bso	10
+叭	bso	10
 吧	bsoaiv	10
 跋	bsoi	10
 跋	bsoivu	10
-叭	bsou	10
-粑	bsoua	10
+粑	bsou	10
+# 粑	bsoua	10
 羓	bsouai	10
 粑	bsouai	11
 叭	bsouoo	10

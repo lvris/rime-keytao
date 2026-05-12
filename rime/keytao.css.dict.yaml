@@ -14,7 +14,7 @@ columns:
 不能	ba	100
 比如	ba	101
 步骤	baa	100
-不了	bai	100
+保险	bai	100
 不对	bao	100
 不好	bau	100
 办法	bav	100
@@ -39,8 +39,8 @@ columns:
 部分	buo	100
 必须	buu	100
 不管	buv	100
-不过	bv	100
-比较	bv	101
+比较	bv	100
+版本	bv	101
 不到	bva	100
 不想	bvi	100
 本来	bvo	100
@@ -55,7 +55,7 @@ columns:
 词汇	cav	100
 操作	ci	100
 差点	ci	101
-从中	cia	100
+策略	cia	100
 伺候	cii	100
 存储	cio	100
 从小	ciu	100
@@ -79,7 +79,7 @@ columns:
 才到	cva	100
 才要	cvi	100
 从来	cvo	100
-才有	cvu	100
+层面	cvu	100
 从未	cvv	100
 到了	da	100
 对了	da	101
@@ -89,7 +89,7 @@ columns:
 动力	dau	100
 登录	dav	100
 多少	di	100
-的人	di	101
+地铁	di	101
 当中	dia	100
 多个	dii	100
 单位	dio	100
@@ -98,7 +98,7 @@ columns:
 但是	do	100
 大学	do	101
 的话	doa	100
-都是	doi	100
+当时	doi	100
 大家	doo	100
 带着	dou	100
 地方	dov	100
@@ -115,7 +115,7 @@ columns:
 都要	dvi	100
 带来	dvo	100
 带去	dvo	101
-都有	dvu	100
+代码	dvu	100
 对于	dvv	100
 生活	ea	100
 上海	ea	101
@@ -127,7 +127,7 @@ columns:
 时候	ei	100
 身体	ei	101
 世界	eia	100
-是个	eii	100
+收藏	eii	100
 适当	eio	100
 数据	eiu	100
 社会	eiv	100
@@ -154,8 +154,8 @@ columns:
 上面	evu	100
 属于	evv	100
 发展	fa	100
-父母	fa	101
-传统	faa	100
+粉丝	fa	101
+父母	faa	100
 房子	fai	100
 只能	fao	100
 这边	fau	100
@@ -164,7 +164,7 @@ columns:
 支持	fi	101
 这里	fia	100
 专业	fii	100
-分钟	fio	100
+非常	fio	100
 直接	fiu	100
 这些	fiv	100
 知道	fo	100
@@ -173,14 +173,14 @@ columns:
 只是	foi	100
 方案	foo	100
 之前	fou	100
-这次	fov	100
+分享	fov	100
 这么	fu	100
-发生	fu	101
+这种	fu	101
 服务	fua	100
 方向	fui	100
 这都	fuo	100
 之后	fuu	100
-这种	fuv	100
+发生	fuv	100
 这样	fv	100
 重要	fv	101
 直到	fva	100
@@ -198,7 +198,7 @@ columns:
 工作	gi	100
 各位	gi	101
 国内	gia	100
-个人	gii	100
+工业	gii	100
 关键	gio	100
 根据	giu	100
 观点	giv	100
@@ -367,10 +367,10 @@ columns:
 垃圾	lvo	100
 里面	lvu	100
 两天	lvv	100
-没了	ma	100
+买了	ma	100
 免费	ma	101
 卖给	maa	100
-买了	mai	100
+妹子	mai	100
 面对	mao	100
 美好	mau	100
 没法	mav	100
@@ -428,7 +428,7 @@ columns:
 那就	nov	100
 那么	nu	100
 那种	nu	101
-能够	nua	100
+女儿	nua	100
 你的	nui	100
 难受	nuo	100
 难得	nuu	100
@@ -487,7 +487,7 @@ columns:
 逐渐	qav	100
 其他	qi	100
 企业	qi	101
-其中	qia	100
+全国	qia	100
 整个	qii	100
 正常	qio	100
 掌握	qiu	100
@@ -544,7 +544,7 @@ columns:
 然而	rv	100
 日本	rv	101
 柔软	rva	100
-人才	rvi	100
+如下	rvi	100
 人士	rvo	100
 人格	rvu	100
 若干	rvv	100
@@ -577,7 +577,7 @@ columns:
 素质	suu	100
 三年	suv	100
 所有	sv	100
-所在	sv	101
+素材	sv	101
 送到	sva	100
 私下	svi	100
 送来	svo	100
@@ -620,7 +620,7 @@ columns:
 特殊	tvu	100
 统一	tvv	100
 为了	wa	100
-持续	wa	101
+我也	wa	101
 网络	waa	100
 完了	wai	100
 温柔	wao	100
@@ -640,10 +640,10 @@ columns:
 稳定	woo	100
 味道	wou	100
 文章	wov	100
-重复	wu	100
-微博	wu	101
+我的	wu	100
+重复	wu	101
 吃饭	wua	100
-我的	wui	100
+玩的	wui	100
 充分	wuo	100
 物质	wuu	100
 创造	wuv	100
@@ -657,7 +657,7 @@ columns:
 喜欢	xa	100
 相对	xa	101
 系统	xaa	100
-行了	xai	100
+儿子	xai	100
 学习	xao	100
 爱好	xau	100
 而已	xav	100
@@ -705,7 +705,7 @@ columns:
 一件	yiu	100
 有点	yiv	100
 因为	yo	100
-以为	yo	101
+影响	yo	101
 应该	yoa	100
 也是	yoi	100
 一定	yoo	100
@@ -728,7 +728,7 @@ columns:
 自己	za	100
 资源	za	101
 最终	zaa	100
-做了	zai	100
+走了	zai	100
 足以	zao	100
 最好	zau	100
 做法	zav	100

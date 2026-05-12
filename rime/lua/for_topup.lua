@@ -82,10 +82,12 @@ local function processor(key_event, env)
 
 
     if env.topup_command and is_first_topup then
-        if first == 'a' and input_len >= 2 then
+        local topup_commands = { a = 1, v = 0 }
+        local min_input = topup_commands[first]
+        if min_input and input_len >= min_input then
+            context:push_input(key)
             topup(env)
-        elseif first == 'v' and input_len >= 1 then
-            topup(env)
+            return 1
         end
         return 2
     end
