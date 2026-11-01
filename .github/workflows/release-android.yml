@@ -48,6 +48,7 @@ jobs:
 
       # gh publishes the release only after the upload, so the latest URL never returns 404
       - name: Create release
+        id: release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -58,6 +59,47 @@ jobs:
             --title "$TAG" \
             --notes-file notes.txt \
             --latest
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      # Xime reads <base_url>/rimes/index.yaml and offers an update when currentVersion changes
+      - name: Publish Xime store index
+        env:
+          TAG: ${{ steps.release.outputs.tag }}
+        run: |
+          SHA256=$(sha256sum keytao-android.zip | cut -d' ' -f1)
+          SIZE_BYTES=$(stat -c %s keytao-android.zip)
+          SIZE=$(awk "BEGIN { printf \"%.2f MB\", $SIZE_BYTES / 1048576 }")
+          DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          CHANGELOG=$(git log -1 --format=%s | jq -Rj .)
+          git switch --orphan xime-index
+          mkdir rimes
+          cat > rimes/index.yaml <<EOF
+          index_version: 1
+          updated_at: '$DATE'
+          schemas:
+          - id: keytao
+            name: 键道6
+            author: lvris
+            description: 个人自用方案，修改自星空键道6
+            type: remote
+            homepage: https://github.com/$GITHUB_REPOSITORY
+            appVersion: '>=3.4.2'
+            currentVersion: $TAG
+            versions:
+            - version: $TAG
+              date: '$DATE'
+              changelog: $CHANGELOG
+              downloadUrl:
+              - url: https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/keytao-android.zip
+                sha256: $SHA256
+                size: $SIZE
+                sizeBytes: $SIZE_BYTES
+          EOF
+          git add rimes
+          git -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -qm "Update index: $TAG"
+          git push -f origin xime-index
 
       - name: Remove old releases
         env:

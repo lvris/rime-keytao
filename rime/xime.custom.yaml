@@ -1,0 +1,7 @@
+# Xime 的自定义配置，随词库包发布，安装时覆盖手机上的同名文件。
+# 键盘布局、主题等都改这个文件，不要在手机上改。见 docs/xime-sync.md
+xime_index:
+  # 方案市场优先读第一个地址，末尾需要 /。第二个是 Xime 内置的官方索引。
+  base_urls:
+    - "https://raw.githubusercontent.com/lvris/rime-keytao/xime-index/"
+    - "https://cdn.jsdelivr.net/gh/ximeiorg/xime-index@master/"
