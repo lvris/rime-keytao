@@ -1,0 +1,20 @@
+index_version: 1
+updated_at: '2026-11-01'
+schemas:
+- id: keytao
+  name: 键道6
+  author: lvris
+  description: 个人自用方案，修改自星空键道6
+  type: remote
+  homepage: https://github.com/lvris/rime-keytao
+  appVersion: '>=3.4.2'
+  currentVersion: dict-20261101-160428
+  versions:
+  - version: dict-20261101-160428
+    date: '2026-11-01'
+    changelog: "fix: quote changelog in Xime store index"
+    downloadUrl:
+    - url: https://github.com/lvris/rime-keytao/releases/download/dict-20261101-160428/keytao-android.zip
+      sha256: d0e43dd361df47b3e4ffb5494de383c3ad1b6c5249b0a0a58746127b3f2df6c6
+      size: 1.92 MB
+      sizeBytes: 2017885
