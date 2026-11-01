@@ -1,0 +1,70 @@
+name: Release Android Package
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'rime/**'
+      - '.github/workflows/release-android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-android
+  cancel-in-progress: false
+
+env:
+  TAG_PREFIX: dict-
+  KEEP_RELEASES: 10
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install rime_deployer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y librime-bin librime-data
+
+      # Only rime/ is packaged: schema/android/ would overwrite the customized keytao.schema.yaml
+      - name: Validate schema and dictionaries
+        run: |
+          WORK=$(mktemp -d)
+          cp -r rime/. "$WORK/"
+          rime_deployer --build "$WORK" /usr/share/rime-data "$WORK/build" 2>&1 | tee deploy.log
+          if grep -E '^E[0-9]' deploy.log; then
+            exit 1
+          fi
+          test -s "$WORK/build/keytao.extended.table.bin"
+
+      - name: Build package
+        run: (cd rime && zip -qr ../keytao-android.zip .)
+
+      # gh publishes the release only after the upload, so the latest URL never returns 404
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${TAG_PREFIX}$(TZ=Asia/Shanghai date +%Y%m%d-%H%M%S)"
+          git log -1 --format=%B > notes.txt
+          gh release create "$TAG" keytao-android.zip \
+            --target "$GITHUB_SHA" \
+            --title "$TAG" \
+            --notes-file notes.txt \
+            --latest
+
+      - name: Remove old releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --limit 100 --json tagName,createdAt \
+            --jq "[.[] | select(.tagName | startswith(\"$TAG_PREFIX\"))] | sort_by(.createdAt) | reverse | .[$KEEP_RELEASES:] | .[].tagName" |
+            while read -r tag; do
+              gh release delete "$tag" --yes --cleanup-tag
+            done
